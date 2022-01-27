@@ -52,11 +52,11 @@ def main():
     updater.start_polling()
 
 
-    updater.start_webhook(listen="0.0.0.0",        
-                        port=5000,                       
-                        url_path=telegram_api) 
-    updater.bot.setWebhook('https://bogdantelebot.herokuapp.com/' + telegram_api) 
-    updater.idle()
+    # updater.start_webhook(listen="136.123.2.23",        
+    #                     port=80,                       
+    #                     url_path=telegram_api) 
+    # updater.bot.setWebhook('https://bogdantelebot.herokuapp.com/' + telegram_api) 
+    # updater.idle()
 
 if __name__ == '__main__':
     main()
